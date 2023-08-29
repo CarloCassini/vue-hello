@@ -22,17 +22,14 @@
 
     <!-- collego i miei scripts -->
     <script type="text/javascript" src="./main.js" defer></script>
-
-    <!-- collego gli scripts di vue.js -->
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
   </head>
 
   <body>
-    <div class="container m-3 text-center">
+    <div class="container m-3 text-center" id="app">
       <div class="row">
         <div class="col-6" style="background-color: rgba(250, 0, 0, 0.3)">
-          <h1>parte dove sctivere hello world</h1>
-          <h1>wakka</h1>
+          <h1>parte dove scrivere hello world</h1>
+          <h1>{{ textDisplay }}</h1>
         </div>
 
         <div class="col-6" style="background-color: rgba(0, 250, 0, 0.3)">
@@ -41,5 +38,7 @@
         </div>
       </div>
     </div>
+    <!-- collego gli scripts di vue.js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </body>
 </html>
